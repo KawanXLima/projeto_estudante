@@ -1,0 +1,91 @@
+section {
+  padding: 30px;
+  background-color: rgb(102, 197, 197);
+}
+
+section h1 {
+  text-align: center;
+}
+
+hr {
+  padding: 1px;
+  background-color: rgba(0, 0, 0, 0.121);
+}
+
+.caixa-opcoes {
+  padding: 20px;
+}
+
+.caixa-botoes {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.caixa-botoes li {
+  margin: 5px;
+}
+
+.caixa-botoes button {
+  padding: 10px;
+  border-radius: 5px;
+  background-color: greenyellow;
+  font-weight: bold;
+}
+
+.caixa-botoes button:hover {
+  background-color: green;
+  color: white;
+}
+
+div {
+  margin: 5% 0px 5% 0px;
+  display: flex;
+  justify-content: space-around;
+}
+
+form {
+  background-color: gray;
+  border: 1px solid black;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  margin: 5px;
+}
+
+.opcoes-form {
+  display: flex;
+}
+
+form button {
+  padding: 8px;
+  margin: 5px;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+}
+
+input {
+  padding: 5px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+.enviar {
+  background-color: blue;
+}
+
+.cancelar {
+  background-color: red;
+}
+
+footer {
+  text-align: center;
+  color: white;
+  background-color: blue;
+}

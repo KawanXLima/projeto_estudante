@@ -1,0 +1,114 @@
+section {
+  padding: 30px;
+  background-color: aqua;
+}
+
+.caixa-funcoes {
+  position: sticky;
+  top: 10px;
+}
+
+.barra-funcoes {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 5%;
+}
+
+.barra-funcoes li {
+  display: inline;
+}
+
+.barra-funcoes a {
+  text-decoration: none;
+  background-color: chocolate;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.barra-funcoes a:hover {
+  background-color: white;
+  border-radius: 5px;
+}
+
+main {
+  left: 38%;
+  display: inline-block;
+  position: sticky;
+  top: 10px;
+}
+
+form {
+  display: flex;
+  flex-flow: wrap;
+}
+
+input {
+  padding: 7px 50px 7px 20px;
+  background-color: #ccc;
+  border-radius: 10px;
+}
+
+button {
+  border-radius: 10px;
+  padding: 5px;
+  color: white;
+  background-color: green;
+}
+
+.caixa-paginas {
+  margin-top: 5%;
+}
+
+.barra-paginas {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.barra-paginas li {
+  flex: 1;
+  margin: 3%;
+}
+
+.barra-paginas a {
+  background-color: blueviolet;
+  color: black;
+  padding: 5px;
+  border-radius: 5px;
+  border: solid;
+}
+
+.barra-paginas a:hover {
+  background-color: white;
+  padding: 5px;
+}
+
+article {
+  flex: 1;
+  padding: 20px;
+  background-color: blue;
+  border: 5px solid black;
+}
+
+article h1 {
+  background-color: red;
+}
+
+p {
+  display: inline;
+  background-color: aqua;
+  color: white;
+}
+
+div {
+  margin-top: 5%;
+  background-color: blue;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+footer {
+  text-align: center;
+  color: white;
+  background-color: blue;
+}

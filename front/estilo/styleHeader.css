@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+html {
+  padding-bottom: 1000px;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  display: flex;
+  background-color: red;
+  padding: 30px;
+  align-items: center;
+}
+
+header h1 {
+  flex: 1;
+}
+
+.caixa-favoritos {
+  flex: 1;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.barra-favoritos li {
+  display: inline-block;
+  margin: 10px;
+}
+
+.barra-favoritos a {
+  background-color: green;
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+a:hover {
+  color: black;
+  background-color: white;
+  border-radius: 5px;
+}
